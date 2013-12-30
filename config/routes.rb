@@ -1,4 +1,10 @@
 XodrosApp::Application.routes.draw do
+  get "english_pages/home"
+  get "english_pages/walls"
+  get "english_pages/rooms"
+  get "english_pages/paintings"
+  get "english_pages/others"
+  get "english_pages/contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
