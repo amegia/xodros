@@ -1,0 +1,9 @@
+module ApplicationHelper
+  def full_title(page_title)
+    full_title = "Javi's Art"
+    full_title += " | #{page_title}" unless page_title.blank?
+  end
+  def button_to(image_path, link)
+    link_to (image_tag("images/to_koutourouki_bnt.jpg", :class => "img"), link)
+  end
+end

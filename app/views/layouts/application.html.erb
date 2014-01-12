@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>XodrosApp</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag "application", media: "all",
+                                           "data-turbolinks-track" => true %>
+     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
-<%= yield %>
+<script>
+$(function(){
+$('#myCarousel').carousel();
+  interval: 3000
+});
+</script>
 
-</body>
+    <%= csrf_meta_tags %>
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+    <% if @header_nav %>
+      <%= render 'layouts/header' %>
+    <% end %>
+    <div class="container">
+      <%= yield %> 
+    <% if @footer %>
+      <%= render 'layouts/footer' %>    
+    <% end %>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../docs-assets/js/holder.js"></script>
+  </body>
 </html>
+

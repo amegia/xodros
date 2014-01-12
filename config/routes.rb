@@ -1,10 +1,11 @@
 XodrosApp::Application.routes.draw do
-  get "english_pages/home"
-  get "english_pages/walls"
-  get "english_pages/rooms"
-  get "english_pages/paintings"
-  get "english_pages/others"
-  get "english_pages/contact"
+#  match '/', to: 'english_pages#home', via: 'get'
+  root  'english_pages#home'
+  match '/walls', to: 'english_pages#walls', via: 'get'
+  match '/rooms', to: 'english_pages#rooms', via: 'get'
+  match '/paintings', to: 'english_pages#paintings', via: 'get'
+  match '/others', to: 'english_pages#others', via: 'get'
+  match '/contact', to: 'english_pages#contact', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

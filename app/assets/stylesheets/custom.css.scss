@@ -1,0 +1,179 @@
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$grayMediumLight: #eaeaea;
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top:60px;
+  background: url('Javiers_Art_40_fondo.jpg') no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.btn-custom { 
+ background-color: hsl(34, 74%, 51%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edc087", endColorstr="#de8e25"); background-image: -khtml-gradient(linear, left top, left bottom, from(#edc087), to(#de8e25)); background-image: -moz-linear-gradient(top, #edc087, #de8e25); background-image: -ms-linear-gradient(top, #edc087, #de8e25); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #edc087), color-stop(100%, #de8e25)); background-image: -webkit-linear-gradient(top, #edc087, #de8e25); background-image: -o-linear-gradient(top, #edc087, #de8e25); background-image: linear-gradient(#edc087, #de8e25); border-color: #de8e25 #de8e25 hsl(34, 74%, 45.5%); color: #333 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.36); -webkit-font-smoothing: antialiased;
+ width:80px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $grayLight;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+div.image {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index:10;
+  margin-top:5%;
+  margin-bottom:-90px;
+  margin-left:20%
+}​
+
+/* header */
+div.logo-holder{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index:10;
+  margin-top:5%;
+  margin-bottom:-90px;
+  margin-left:5%
+}
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $grayMediumLight;
+  color: $grayLight;
+  a {
+    color: $gray;
+    &:hover {
+      color: $grayDarker;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+
+ /* Carousel base class */
+    .carousel {
+      margin-bottom: 0px;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 100%;
+    }
+    .carousel img {
+      position: static;//relative;
+      top: 0;
+      left: 0;
+      min-height: 100%;
+      min-width: 100%;
+      margin: 0;
+    }
+
+    .carousel-caption {
+      background-color: #0001;
+      position: absolute;
+      max-width: 450px;
+      padding: 35px 20px;
+      margin-top: 40px;
+      margin-left: 50px;
+      margin-bottom: 45%;
+      z-index: 20;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 4px 4px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }

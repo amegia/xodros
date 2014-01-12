@@ -1,0 +1,34 @@
+<h1>EnglishPages#rooms</h1>
+<p>Find me in app/views/english_pages/rooms.html.erb</p>
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    <!--<div class="carousel-caption">
+      <h1>Choose the Language!</h1>
+      <p class="lead">...and enjoy!</p>
+      <%= link_to "English", root_path, class: "btn btn-large btn-primary" %>
+  <%= link_to "Walls", walls_path, class: "btn btn-large btn-primary" %>
+    </div>-->
+    <div class="item active">
+      <img src="images/Javier's Art_03.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/Javier's Art_04.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/Javier's Art_05.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/Javier's Art_06.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/Javier's Art_07.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="images/Javier's Art_08.jpg" alt="">
+    </div>
+  </div>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+<!-- /.carousel -->
