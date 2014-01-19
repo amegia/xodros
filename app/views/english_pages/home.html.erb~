@@ -1,4 +1,5 @@
-
+<div class="image">
+  <img src="images/Javiers_Art_40.jpg" alt="">
 <!-- Logo attempt
 ================================================== -->
 <div class="logo-holder">
@@ -17,6 +18,5 @@
 <%= render 'layouts/footer' %>  
 </div>
 
-<!--<div class="image">
-  <img src="images/Javiers_Art_40.jpg" alt="">
-</div>-->
+
+</div>

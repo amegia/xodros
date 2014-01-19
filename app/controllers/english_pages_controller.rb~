@@ -1,6 +1,7 @@
 class EnglishPagesController < ApplicationController
   def home
     @header_nav = false
+    @footer = false
   end
 
   def walls

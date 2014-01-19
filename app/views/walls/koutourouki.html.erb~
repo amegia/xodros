@@ -1,0 +1,92 @@
+<!--<h1>Walls#koutourouki</h1>
+<p>Find me in app/views/walls/koutourouki.html.erb</p>-->
+
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag("Javier's Art_17.jpg", :alt => "Front") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_20.jpg", :alt => "Back") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_18.jpg", :alt => "Barrel") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_19.jpg", :alt => "Barrel") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_21.jpg", :alt => "Barrel zoom") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_22.jpg", :alt => "Barrel") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_23.jpg", :alt => "Barrel") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_24.jpg", :alt => "Barrel") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_25.jpg", :alt => "tiestos") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_26.jpg", :alt => "bird1") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_27.jpg", :alt => "bird1") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_28.jpg", :alt => "wall") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_29.jpg", :alt => "palmera") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_30.jpg", :alt => "wall") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_31.jpg", :alt => "barrel top") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_32.jpg", :alt => "barrel top") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_33.jpg", :alt => "wall2 ladder") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_34.jpg", :alt => "wall2 parrot") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_35.jpg", :alt => "wall2 parra") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_36.jpg", :alt => "wall2 parra") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_37.jpg", :alt => "wall2 parra") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_38.jpg", :alt => "tiestos2") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_39.jpg", :alt => "tiestos2") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_40.jpg", :alt => "XaniaStret") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_41.jpg", :alt => "XaniaStret") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_42.jpg", :alt => "XaniaStret with cat") %>
+    </div>
+    <div class="item">
+      <%= image_tag("Javier's Art_43.jpg", :alt => "tiestos3") %>
+    </div>
+  </div>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+<!-- /.carousel -->

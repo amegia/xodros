@@ -1,0 +1,5 @@
+<!--<h1>Walls#roundabout</h1>
+<p>Find me in app/views/walls/roundabout.html.erb</p>-->
+
+<%= image_tag("Javier's Art_11.jpg", :alt => "") %>
+

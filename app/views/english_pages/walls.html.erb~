@@ -1,38 +1,13 @@
 <!--<h1>EnglishPages#walls</h1>
-<p>Find me in app/views/english_pages/walls.html.erb</p>
-<!-- carousel --
-<div id="myCarousel" class="carousel slide">
-  <div class="carousel-inner">
-    <!--<div class="carousel-caption">
-      <h1>Choose the Language!</h1>
-      <p class="lead">...and enjoy!</p>
-      <%= link_to "English", root_path, class: "btn btn-large btn-primary" %>
-  <%= link_to "Walls", walls_path, class: "btn btn-large btn-primary" %>
-    </div>-->
-<!--    <div class="item active">
-      <img src="images/Javier's Art_11.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="images/Javier's Art_16.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="images/Javier's Art_17.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="images/Javier's Art_18.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="images/Javier's Art_19.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="images/Javier's Art_20.jpg" alt="">
-    </div>
-  </div>
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div>
-<!-- /.carousel -->
-<div class="logo-holder">
-  <img src="images/to_koutourouki_bnt.jpg" alt="">
-  <%= link_to "more photos", root_path %>
-</div>
+<p>Find me in app/views/english_pages/walls.html.erb</p>-->
+
+<%= link_to image_tag("to_koutourouki_btn.jpg"), walls_koutourouki_path, class: "btn btn-walls" %>
+<p></p>
+<a-custom><a href="http://www.cretadeluxe.de/tip/koutourouki/koutourouki_en.htm">Link to Koutourouki Web Site</a> </a-custom>
+<p></p>
+<%= link_to image_tag("http://www.cretadeluxe.de/tip/roundabout/images/roundabout_logo.jpg"), walls_roundabout_path, class: "btn btn-walls" %>
+<p></p>
+<a-custom><a href="http://www.cretadeluxe.de/tip/roundabout/roundabout_en.htm">Link to Roundabout Web Site</a> </a-custom>
+<p></p>
+<%= link_to image_tag("libanesa_btn.jpg"), walls_libanesa_path, class: "btn btn-walls" %>
+<p></p>
